@@ -19,7 +19,7 @@ public class AlumnoController {
 
     @GetMapping("/alumno")
     public String getAlumno(Model model){
-        model.addAttribute("alumnosVariable", alumnoRepository.findAll());
+        model.addAttribute("alumnosVariable222", alumnoRepository.findAll());
 
         return "verAlumno";
     }
